@@ -1,125 +1,380 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Divya’s Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Divya">
-    <title>Portfolio</title>
-    <meta name="twitter:title" content="Divya’s Portfolio">
-    <meta name="og:title" content="Divya’s Portfolio">
+    <meta name="viewport" ,content="width=device-width, initial-scale=1.0">
+    <title>Divya Panwar - Portfolio | Beginner Programmer</title>
+    <meta name="description" content="Portfolio of Divya Panwar - Beginner Programmer specializing in HTML & CSS">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <a href="#aboutme" target="_self">ABOUT ME</a> |
-            <a href="#certification" target="_self">CERTIFICATION</a> |
-            <a href="#skills" target="_self">SKILLS</a> |
-            <a href="#contactme" target="_self">CONTACT ME</a>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Divya Panwar</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#interests" class="nav-link">Interests</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
         </nav>
-        <hr>
-        <section id="aboutme">
-            <H3> &hearts; Welcome to Divya’s Portfolio</H3>
-            </br>
-            <img src="https://i.postimg.cc/7Pnx71FC/Screenshot-from-2025-08-28-15-56-36.png" alt="profile picture"
-                width="300" height="300" radius="50%">
-                <br>
-                <h6> ABOUT ME </h6>
-    </div>
+    </header>
 
-    <p>
-        My name is Divya . I am a student and a beginner programmer, currently learning programming with a focus on HTML
-        and CSS.
-        I am passionate about building simple projects, improving my coding skills, and exploring the world of web
-        development.
-    </p>
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <img src="https://i.postimg.cc/7Pnx71FC/Screenshot-from-2025-08-28-15-56-36.png" alt="Divya Panwar Profile" class="profile-img">
+            </div>
+            <h1 class="hero-title">Divya Panwar</h1>
+            <p class="hero-subtitle">Beginner Programmer | HTML & CSS Learner</p>
+            <p class="hero-description">Passionate about web development and continuous learning</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </section>
-    <hr>
-    <br>
-    <div>
-        <section id="certification">
-            <h2> &hearts; CERTIFICATION </h2>
-    </div>
-    </br>
-    <br>
-    <h3>Introducing Generative AI with AWS </h3>
-    </br>
 
-    <ul>
-        <br>
-        <li>Issued by: Udacity (in collaboration with Accenture)</li>
-        <li>Date: July 5, 2025</li>
-        <li>
-            Description: Successfully completed a verified course on Generative AI with AWS,
-            gaining knowledge of fundamental concepts of Generative AI, practical applications,
-            and the integration of AWS services to build and deploy AI-driven solutions.</li>
-    </ul>
-    </br>
-    <br>
-    <h3>AI Fundamentals Training</h3>
-    </br>
-    <ul>
-        <br>
-        <li>Issued by: NavGurukul in collaboration with Anudip Foundation for Social Welfare</li>
-
-        <li>Date: August 1, 2025</li>
-
-        <li>
-            Description: Successfully completed training under the AI Opportunity Fund: Asia-Pacific,
-            an initiative supported by Google.org and the Asian Development Bank.
-            The program focused on core AI concepts, practical applications, and ethical aspects of Artificial
-            Intelligence.</li>
-        </br>
-    </ul>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Divya Panwar, a passionate beginner programmer on an exciting journey into the world of web development. I'm currently pursuing my BCA and have discovered my love for coding through HTML and CSS.</p>
+                    <p>My journey started in 2024 when I began learning the fundamentals of web development. I believe in continuous learning and am always eager to explore new technologies and improve my skills.</p>
+                    <p>When I'm not coding, I enjoy solving coding challenges and exploring the latest trends in technology, especially in the field of generative AI.</p>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Quick Info</h3>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Pursuing BCA</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-code"></i>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Started: 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <HR>
-    <BR>
-    <div>
-        <section id="skills">
-            <h2> &hearts; SKILLS </h2>
-    </div>
-    </BR>
-    <br>
-    <h4>🖥 Technical Skills</h4>
-    </BR>
-    <br>
-    <ul style="list-style-type:square">
-        <li>HTML – Basic website structure</li>
-        <li>CSS – Styling web pages</li>
-        <li>JavaScript – Adding interactivity</li>
-    </ul>
-    </br>
-    <h4> 🤝 Soft Skills</h4>
-    <ul style="list-style-type:square">
-        <li>Communication Skills</li>
-        <li>Teamwork</li>
-        <li>Problem Solving</li>
-        <li>Adaptability</li>
-        <li>Time Management</li>
-    </ul>
 
-    </p>
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-content">
+                <div class="technical-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-level">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-level">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">GitHub Basics</span>
+                            <span class="skill-level">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Programming Fundamentals</span>
+                            <span class="skill-level">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="soft-skill-card">
+                            <i class="fas fa-comments"></i>
+                            <h4>Communication</h4>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-users"></i>
+                            <h4>Teamwork</h4>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Problem-Solving</h4>
+                        </div>
+                        <div class="soft-skill-card">
+                            <i class="fas fa-clock"></i>
+                            <h4>Time Management</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <HR>
-    <BR>
-    <div>
-        <section id="contactme">
-            <h2> &hearts; CONTACT </h2>
-        </section>
-    </div>
-    </BR>
-    <div class="footer">
-        <button>📧 Email: divyapanwar25@navgurukul.org </button>
-        <br>
-        <br>
-        <button> 📞 Phone: 7987760792 </button>
-        <button> 📍 Location: India </button><br>
-        <p>
-            <span>Feel free to contact me for collaboration, ideas, or learning together.&hearts;</span>
-        </p>
 
-    </div>
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title">Interests</h2>
+            <div class="interests-grid">
+                <div class="interest-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Passionate about creating beautiful and functional websites</p>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Coding Challenges</h3>
+                    <p>Love solving problems and improving programming skills</p>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Continuous Learning</h3>
+                    <p>Always eager to learn new technologies and frameworks</p>
+                </div>
+                <div class="interest-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Exploring Generative AI</h3>
+                    <p>Fascinated by AI technology and its applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Here are some projects I've been working on</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive portfolio website built with HTML and CSS showcasing my skills and projects.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Landing Page Design</h3>
+                    <p>A modern landing page with clean design and responsive layout for a fictional company.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Flexbox</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>CSS Animation Showcase</h3>
+                    <p>A collection of CSS animations and transitions demonstrating various effects and techniques.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Animations</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Responsive Grid Layout</h3>
+                    <p>A practice project focusing on CSS Grid and responsive design principles.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS Grid</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-content">
+                        <h3>Pursuing BCA</h3>
+                        <p class="timeline-institution">Bachelor of Computer Applications</p>
+                        <p>Currently pursuing my degree with focus on programming fundamentals and web development.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h3>Started Learning HTML & CSS</h3>
+                        <p class="timeline-institution">Self-Learning Journey</p>
+                        <p>Began my web development journey by learning HTML and CSS fundamentals.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h3>Completed Higher Secondary</h3>
+                        <p class="timeline-institution">Higher Secondary Education</p>
+                        <p>Successfully completed higher secondary education with good grades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Introducing Generative AI with AWS</h3>
+                    <p class="cert-provider">Amazon Web Services</p>
+                    <p>Completed certification on generative AI fundamentals and AWS applications.</p>
+                </div>
+                <div class="certification-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>AI Fundamentals Training</h3>
+                    <p class="cert-provider">Online Learning Platform</p>
+                    <p>Comprehensive training on artificial intelligence basics and applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>First Portfolio Website</h3>
+                    <p>Successfully created and deployed my first portfolio website using HTML and CSS.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>CSS Layout Mastery</h3>
+                    <p>Mastered CSS Flexbox and Grid layouts for responsive web design.</p>
+                </div>
+                <div class="achievement-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Consistent Learning</h3>
+                    <p>Maintained consistent daily practice and learning schedule for web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Let's connect and work together!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>divyapanwar25@navgurukul.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>7987760792</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" value="Divya Panwar" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" value="divyapanwar25@navgurukul.org" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" value="7987760792">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Divya Panwar. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> using HTML & CSS</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
